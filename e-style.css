@@ -1,0 +1,150 @@
+*{  padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+.flex-container{
+    display: flex;
+    background-color: #5CB85C;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.flex-container > div{
+    margin: 5px;
+    padding: 4px;
+    color: white;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../images/pvc2.JPG");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*--------------LINKS----------*/
+a:link{text-decoration: none}
+a i:hover{color: #053350;}
+.main-nav{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -50px;
+    flex-flow: row wrap;
+}
+.main-nav li a{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.main-nav li a:hover{border-bottom: 2px solid #5CB85C;}
+.row{ width: 1140px;
+    margin: 0 auto;}
+/*--------------ICONS----------*/
+.phone-icon{ margin-right: -10px;
+    font-size: 12px;}
+.t-icon{
+    background-color: #0088cc;
+    color: white;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-right: -5px;
+}
+.f-icon{
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 6px; 
+    margin-right: -5px;
+}
+.tw-icon{
+    background-color: #1da1f2;
+    color: white;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-right: -5px;
+
+}
+.u-icon{
+    background-color:#ff0000;
+    color: #FCEBEB;
+    font-size: 15px;
+    padding: 2px 6px;
+    margin-right: -5px;
+}
+/*--------------SEARCH----------*/
+input[type="search"]{ border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top: -50px;
+    right:-920px;}
+input[type="search"]:focus{
+    border-color: #5CB85C;
+    background-color: #5CB85C;
+    color: #FFFFFF;
+}
+/*--------------E-VOTING LOGO----------*/
+span{ color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    font-size: 50px;}
+/*--------------login-details----------*/
+.login-details{
+    border: 1px solid #5CB85C;
+    width: 80%;
+    margin: 80px auto 0 auto;
+    height: 400px
+}
+.members{background-color: #5CB85C;
+    color: #FCEBEB;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;}
+.content{ border: 1px solid #5CB85C;
+    width: 70%;
+    margin: 50px auto 0 auto;
+    height: 250px;
+}
+p{ color: #FCEBEB;
+    padding: 25px;
+    line-height: 20px;
+    text-align: justify;}
+.form{
+    padding-left: 100px;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    padding: 15px;
+    color: #FCEBEB;
+}
+.col-75{
+    float: left;
+    width: 75%;
+    padding: 10px;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+input[type="text"],input[type="password"]{ padding: 7px;   color: black;}
+input[type="text"]:focus,input[type="password"]:focus{ background-color: #5CB85C; color: #FCEBEB;}
+.login{ margin-left: 26.5%;}
+input[type="submit"]{ background-color: #5CB85C; color: #FCEBEB; padding: 8px; font-size: 15px; margin-top: 5px;}
+input[type="submit"]:hover{ background-color: #306d30; color: #fff}
+
+footer{background-color: black;}
+footer p{text-align: center;}
